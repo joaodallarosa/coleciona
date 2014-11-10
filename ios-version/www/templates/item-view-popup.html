@@ -1,0 +1,25 @@
+<style type="text/css">
+    #item-view-popover {
+        margin-top: 10px;
+
+    }
+</style>
+<ion-popover-view type="text/ng-template" id="item-view-popover">
+
+    <ion-content>
+        <ion-list option-buttons="itemButtons" can-swipe="true">
+            <line></line>
+            <ion-item class="item"
+                      ng-click="saveItem(); closePopover()">
+                Salvar
+            </ion-item>
+            <line></line>
+            <ion-item ng-controller="EditCollectionCtrl" class="item"
+                      ng-click="openRemoveDialog(); closePopover()">
+                Deletar
+            </ion-item>
+            <line></line>
+
+        </ion-list>
+    </ion-content>
+</ion-popover-view>

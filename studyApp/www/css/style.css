@@ -1,0 +1,130 @@
+/* Empty. Add your own CSS if you like */
+.action-bar {
+    background: orange;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.action-bar-icon {
+    font-size: x-large;
+    color: #000000;
+    margin: 10px;
+}
+
+.action-bar-app-icon {
+    font-size: x-large;
+    color: #000000;
+
+}
+
+/*
+.title {
+    font-family: "Helvetica Neue-Light", Helvetica, Arial, "Lucida Grande", sans-serif, lig;
+}
+
+.app-text {
+    font-family: "Helvetica Neue-Light", Helvetica, Arial, "Lucida Grande", sans-serif, lig;
+}
+
+.card-image {
+    display: block;
+    margin: auto;
+}
+*/
+
+/* add-collection-item.css */
+.add-collection-item-div-image {
+    height: 350px;
+    vertical-align: text-bottom;
+    border: 1px solid #444;
+    overflow: hidden;
+
+}
+
+.add-collection-item-div-no-image-warning {
+
+    font-size: 20px;
+    opacity: 0.3;
+    text-align: center;
+    font-weight: lighter;
+    width: 90%;
+    margin: auto;
+    margin-top: 80px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.button-add-image {
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    margin-top: 27%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 28px;
+
+}
+
+.button-remove-image {
+    position: absolute;
+    z-index: 1;
+
+    font-size: 38px;
+
+}
+
+.input-label {
+    color: #a2a2a2;
+}
+
+.add-collection-item-div-image-container {
+
+    width: 100%;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+
+}
+
+#add-collection-item-div-image-title {
+    text-align: center;
+    font-size: large;
+    opacity: 0.5;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 300px;
+}
+
+.add-collection-item-div-image-container-remove-button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    width: 100px;
+    height: 30px;
+}
+
+.add-collection-item-div-data {
+    margin-top: 10px;
+
+}
+
+.item-list-image {
+    background-color: #498f24;
+    width: 30px;
+    height: 100%;
+
+}
+
+/*ADD COLLECTION ITEM*/
+
+/*.card-styling{
+    background: #ffffff;
+    height: 250px;
+    width: 90%;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+}*/

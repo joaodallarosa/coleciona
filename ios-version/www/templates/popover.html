@@ -1,0 +1,33 @@
+<style type="text/css">
+    #collection-view-popover {
+        margin-top: 10px;
+
+    }
+</style>
+<ion-popover-view type="text/ng-template" id="collection-view-popover">
+
+    <ion-content>
+        <ion-list option-buttons="itemButtons" can-swipe="true" >
+            <line></line>
+            <ion-item class="item"
+                      ng-click="showAddCollectionItem(); closePopover()">
+                Adicionar novo item
+            </ion-item>
+            <line></line>
+            <ion-item ng-controller="EditCollectionCtrl" class="item"
+                      ng-click="viewEditCollection(); closePopover()">
+                Editar coleção
+            </ion-item>
+            <line></line>
+            <ion-item class="item"
+                      ng-click="removeCollection(); closePopover() ">
+                Remover coleção
+            </ion-item>
+            <ion-item class="item"
+                      ng-click="activeCollection.items.showReorder = !activeCollection.items.showReorder; closePopover() ">
+                Reordenar
+            </ion-item>
+            <line></line>
+        </ion-list>
+    </ion-content>
+</ion-popover-view>

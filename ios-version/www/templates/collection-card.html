@@ -1,0 +1,103 @@
+<style type="text/css">
+    #content {
+        margin-left: -16px;
+        height: 90px;
+        font-weight: bold;
+    }
+
+    .card {
+        height: 150px;
+    }
+
+    .card-info {
+        height: 100%;
+        width: 55%;
+        position: absolute;
+
+    }
+
+    #card-title {
+        font-size: 1.3em;
+        margin-top: 20px;
+        height: 1.5em;
+        font-weight: lighter;
+    }
+
+    .card-description {
+        margin-top: -40px;
+        margin-left: -15px;
+
+        font-weight: 700;
+    }
+
+    .card-image {
+        position: relative;
+        margin-left: 60%;
+        width: auto;
+        height: 110%;
+    }
+
+    .col {
+        padding: 0;
+    }
+
+    .row {
+        padding: 0;
+        height: 50%;
+    }
+
+    .mini-image {
+        width: auto;
+        height: 50%;
+        position: absolute;
+        padding: 0;
+    }
+
+    .mini-image2 {
+        margin-left: 10px;
+        width: auto;
+        height: 50%;
+        position: absolute;
+        padding: 0;
+    }
+
+
+</style>
+<ion-item class="card" ng-repeat="collection in collections" ng-click="collectionDetails(collection)">
+    <div class="card-info">
+        <p id="card-title">{{collection.title}}</p>
+
+
+        <div class="item-body card-description" id="content">
+            <p>{{collection.description}}</p>
+        </div>
+    </div>
+    <!--<img class="card-image" src="http://cdn.bulbagarden.net/upload/thumb/c/c6/094Gengar.png/250px-094Gengar.png">
+    <img class="card-image" src="{{collection.items[0].itemImages[0].imageUrl}}">-->
+
+    <div class="card-image">
+        <div class="row">
+            <div class="col col-60"><img class="mini-image" src="{{collection.items[0].itemImages[0].imageUrl}}"></div>
+            <div class="col"><img class="mini-image2" src="{{collection.items[1].itemImages[0].imageUrl}}"></div>
+        </div>
+        <div class="row">
+            <div class="col col-60"><img class="mini-image" src="{{collection.items[2].itemImages[0].imageUrl}}"></div>
+            <div class="col"><img class="mini-image2" src="{{collection.items[3].itemImages[0].imageUrl}}"></div>
+        </div>
+
+    </div>
+
+    <!--<div class="card-image">
+        <div class="row">
+            <div class="col"><img class="mini-image" src="http://www.droid-guru.com/wp-content/uploads/2012/03/0.png"></div>
+            <div class="col"><img class="mini-image2" src="http://www.droid-guru.com/wp-content/uploads/2012/03/0.png"></div>
+        </div>
+        <div class="row">
+            <div class="col"><img class="mini-image" src="http://www.droid-guru.com/wp-content/uploads/2012/03/0.png"></div>
+            <div class="col"><img class="mini-image2" src="http://www.droid-guru.com/wp-content/uploads/2012/03/0.png"></div>
+        </div>
+
+    </div>-->
+
+
+</ion-item>

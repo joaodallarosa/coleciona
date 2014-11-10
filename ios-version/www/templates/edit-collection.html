@@ -1,0 +1,39 @@
+<div class="modal" type="text/ng-template">
+
+    <!-- Modal header bar -->
+    <ion-header-bar class="action-bar">
+        <button class="button button-clear button-dark" ng-click="closeEditCollection()">
+            Voltar
+
+        </button>
+        <h1 class="title action-bar-icon" align="center">Editar Coleção</h1>
+        <!-- New Task button-->
+    </ion-header-bar>
+
+    <ion-content>
+
+
+        <div class="list">
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Título da coleção</span>
+                <input type="text" placeholder="Título da coleção" id="edit-collection-title">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">O que está sendo colecionado</span>
+                <input type="text" placeholder="O que está sendo colecionado (ex: Moedas, Latas, Bonecos...)"
+                       id="edit-collection-object-type">
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Descrição da Coleção</span>
+                <input type="text" placeholder="Descrição da Coleção" id="edit-collection-description">
+            </label>
+        </div>
+
+        <button id="add-collection-item-add-image-button"
+                class="button button-full button-positive button-energized"
+                ng-click="saveCollection()">Salvar Coleção
+        </button>
+
+    </ion-content>
+
+</div>

@@ -1,0 +1,80 @@
+<div class="modal" type="text/ng-template">
+
+    <!-- Modal header bar -->
+    <ion-header-bar class="action-bar" align-title="left">
+        <button class="button button-icon" ng-click="closeItem()">
+            <i class="action-bar-app-icon ion-ios7-arrow-back" ng-class="{activeItem: activeCollectionItem == myItem}">
+                {{activeCollectionItem.itemTitle}}
+            </i>
+
+        </button>
+        <h1 class="title title-left"></h1>
+        <!-- New Task button-->
+
+        <div class="buttons right-buttons" align="right">
+
+            <button class="button button-clear" ng-click="openPopover($event)">
+                <i class="ion-android-more action-bar-icon"></i>
+            </button>
+        </div>
+
+    </ion-header-bar>
+
+
+    <!-- Modal content area -->
+    <ion-content>
+
+        <form>
+
+            <ion-slide-box class="collection-item-view-image-container" id="slide-box"
+                           on-slide-changed="slideHasChanged($index)"
+                    >
+                <!--<h1 ng-repeat="test in pinto">"{{test.title}}"</h1>-->
+                <ion-slide ng-repeat="itemImage in itemImages" on-long-press="showImageOptions()">
+                    <!--<button class="button button-clear button-energized button-remove-image" ng-click="removeCurrentImage()">
+                        <i class="ion-close-circled"></i>
+                    </button>-->
+                    <img class="collection-item-view-image" src="{{itemImage.imageUrl}}">
+                </ion-slide>
+            </ion-slide-box>
+
+
+            <div class="list">
+
+                <a class="button button-full icon-center ion-android-image button-clear button-energized"
+                   ng-click="myPopup()"> Adicionar Imagem</a>
+
+
+                <div class="add-collection-item-div-data">
+                    <label class="item item-input">
+                        <input type="text" placeholder="Título" id="item-title">
+                    </label>
+                    <label class="item item-input">
+                        <input type="text" placeholder="Descrição" id="item-description">
+                    </label>
+                    <label class="item item-input">
+                        <input type="number" placeholder="Valor" id="item-value">
+                    </label>
+
+
+                    <button id="add-collection-item-add-image-button"
+                            class="button button-full button-positive button-energized"
+                            ng-click="saveItem(); closeItem();">Salvar
+                    </button>
+
+                    <!--
+                    <button id="add-collection-item-add-image-button" class="button icon-center ion-android-location button-full button-positive button-energized"
+                            ng-click="launchPhotoLibrary()">Add location
+                    </button>
+                    -->
+                </div>
+
+
+            </div>
+
+
+        </form>
+
+    </ion-content>
+
+</div>

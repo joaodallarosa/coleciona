@@ -1,0 +1,63 @@
+objc[5463]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-09-20 00:24:32.784 studyApp[5463:70b] Cannot find executable for CFBundle 0xa62a360 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-09-20 00:24:32.802 studyApp[5463:70b] Cannot find executable for CFBundle 0xa5521d0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-09-20 00:24:32.849 studyApp[5463:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-20 00:24:32.858 studyApp[5463:70b] Unlimited access to network resources
+2014-09-20 00:24:32.880 studyApp[5463:70b] [CDVTimer][keyboard] 0.091016ms
+2014-09-20 00:24:32.883 studyApp[5463:70b] [CDVTimer][file] 2.909005ms
+2014-09-20 00:24:32.884 studyApp[5463:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-20 00:24:32.884 studyApp[5463:70b] [CDVTimer][statusbar] 0.436008ms
+2014-09-20 00:24:32.885 studyApp[5463:70b] [CDVTimer][TotalPluginStartup] 4.983962ms
+2014-09-20 00:24:33.016 studyApp[5463:70b] Resetting plugins due to page load.
+2014-09-20 00:24:33.400 studyApp[5463:70b] Finished load of: file:///Users/air/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/72451337-3524-4AE1-88E3-1B7AF7468FE3/studyApp.app/www/index.html
+2014-09-20 00:24:33.445 studyApp[5463:70b] got filesystem
+2014-09-20 00:24:33.445 studyApp[5463:70b] /
+2014-09-20 00:24:40.808 studyApp[5463:70b] Closing in controller!
+2014-09-20 00:24:40.886 studyApp[5463:70b] THREAD WARNING: ['Camera'] took '76.977783' ms. Plugin should use a background thread.
+2014-09-20 00:24:46.072 studyApp[5463:70b] error creating directory: The operation couldn’t be completed. (Cocoa error 4.)
+2014-09-20 00:24:47.706 studyApp[5463:70b] THREAD WARNING: ['File'] took '1634.624023' ms. Plugin should use a background thread.
+2014-09-20 00:24:51.579 studyApp[5463:70b] Closing in controller!
+2014-09-20 00:24:54.628 studyApp[5463:70b] error creating directory: The operation couldn’t be completed. (Cocoa error 4.)
+2014-09-20 00:24:56.193 studyApp[5463:70b] THREAD WARNING: ['File'] took '1565.264160' ms. Plugin should use a background thread.
+2014-09-20 00:26:07.370 studyApp[5463:70b] Closing in controller!
+2014-09-20 00:26:11.998 studyApp[5463:70b] Closing in controller!
+2014-09-20 00:26:21.212 studyApp[5463:70b] Closing in controller!
+Terminating in response to SpringBoard's termination.
+objc[4047]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-09-27 14:19:01.457 studyApp[4047:70b] Cannot find executable for CFBundle 0xa683c50 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-09-27 14:19:01.464 studyApp[4047:70b] Cannot find executable for CFBundle 0xa4783e0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-09-27 14:19:01.498 studyApp[4047:70b] Multi-tasking -> Device: YES, App: YES
+2014-09-27 14:19:01.506 studyApp[4047:70b] Unlimited access to network resources
+2014-09-27 14:19:01.529 studyApp[4047:70b] [CDVTimer][keyboard] 0.104010ms
+2014-09-27 14:19:01.531 studyApp[4047:70b] [CDVTimer][file] 1.767993ms
+2014-09-27 14:19:01.532 studyApp[4047:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-09-27 14:19:01.532 studyApp[4047:70b] [CDVTimer][statusbar] 0.425994ms
+2014-09-27 14:19:01.533 studyApp[4047:70b] [CDVTimer][TotalPluginStartup] 3.664970ms
+2014-09-27 14:19:01.680 studyApp[4047:70b] Resetting plugins due to page load.
+2014-09-27 14:19:02.162 studyApp[4047:70b] Finished load of: file:///Users/air/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/72451337-3524-4AE1-88E3-1B7AF7468FE3/studyApp.app/www/index.html
+2014-09-27 14:19:02.309 studyApp[4047:70b] got filesystem
+2014-09-27 14:19:02.309 studyApp[4047:70b] /
+2014-09-27 14:19:07.311 studyApp[4047:70b] Closing in controller!
+2014-09-27 14:19:07.389 studyApp[4047:70b] THREAD WARNING: ['Camera'] took '76.494873' ms. Plugin should use a background thread.
+2014-09-27 14:19:16.389 studyApp[4047:70b] Closing in controller!
+2014-09-27 14:19:16.389 studyApp[4047:70b] Camera.getPicture: source type 1 not available.
+2014-09-27 14:19:17.917 studyApp[4047:70b] THREAD WARNING: ['Camera'] took '1527.540039' ms. Plugin should use a background thread.
+2014-09-27 14:19:20.289 studyApp[4047:70b] Closing in controller!
+2014-09-27 14:19:24.745 studyApp[4047:70b] error creating directory: The operation couldn’t be completed. (Cocoa error 4.)
+2014-09-27 14:19:26.494 studyApp[4047:70b] THREAD WARNING: ['File'] took '1749.873291' ms. Plugin should use a background thread.
+2014-09-27 14:20:30.509 studyApp[4047:70b] Closing in controller!
+objc[2915]: Class AXEmojiUtilities is implemented in both /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/PrivateFrameworks/AccessibilityUtilities.framework/AccessibilityUtilities and /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/usr/lib/libAXSpeechManager.dylib. One of the two will be used. Which one is undefined.
+2014-10-07 22:31:46.770 studyApp[2915:70b] Cannot find executable for CFBundle 0xa671fb0 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/GeoServices.axbundle> (not loaded)
+2014-10-07 22:31:46.780 studyApp[2915:70b] Cannot find executable for CFBundle 0xa687170 </Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator7.1.sdk/System/Library/AccessibilityBundles/CertUIFramework.axbundle> (not loaded)
+2014-10-07 22:31:46.817 studyApp[2915:70b] Multi-tasking -> Device: YES, App: YES
+2014-10-07 22:31:46.846 studyApp[2915:70b] Unlimited access to network resources
+2014-10-07 22:31:47.013 studyApp[2915:70b] [CDVTimer][keyboard] 0.097036ms
+2014-10-07 22:31:47.015 studyApp[2915:70b] [CDVTimer][file] 1.618981ms
+2014-10-07 22:31:47.015 studyApp[2915:70b] CDVPlugin class CDVStatusBar (pluginName: statusbar) does not exist.
+2014-10-07 22:31:47.016 studyApp[2915:70b] [CDVTimer][statusbar] 0.486016ms
+2014-10-07 22:31:47.016 studyApp[2915:70b] [CDVTimer][TotalPluginStartup] 3.630042ms
+2014-10-07 22:31:47.189 studyApp[2915:70b] Resetting plugins due to page load.
+2014-10-07 22:31:47.684 studyApp[2915:70b] Finished load of: file:///Users/air/Library/Application%20Support/iPhone%20Simulator/7.1/Applications/72451337-3524-4AE1-88E3-1B7AF7468FE3/studyApp.app/www/index.html
+2014-10-07 22:31:47.742 studyApp[2915:70b] got filesystem
+2014-10-07 22:31:47.743 studyApp[2915:70b] /
+2014-10-07 22:32:12.685 studyApp[2915:70b] Received memory warning.
