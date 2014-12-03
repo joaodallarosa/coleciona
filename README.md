@@ -1,4 +1,6 @@
-coleciona
+Coleciona
 =========
 
-Aplicativo híbrido (Android e iOS) desenvolvido como Projeto de Conclusão de Curso para o curso de Design da Universidade Federal de Santa Catarina.
+Mobile Hybrid App developed as conclusion project for the Design course at the UFSC(Universidade Federal de Santa Catarina).
+
+Developed using the Ionic Framework - http://ionicframework.com
